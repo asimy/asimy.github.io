@@ -211,7 +211,9 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.16.1)
-    nokogiri (1.13.6-x86_64-darwin)
+    nokogiri (1.13.9-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
@@ -255,12 +257,13 @@ GEM
 PLATFORMS
   x86_64-darwin-20
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   github-pages (~> 226)
   jekyll-feed
   minima
-  nokogiri (~> 1.13, >= 1.13.6)
+  nokogiri (~> 1.13)
   webrick (~> 1.7)
 
 BUNDLED WITH
